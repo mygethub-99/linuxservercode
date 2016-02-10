@@ -34,7 +34,7 @@ templates folder: Contain all the .html templates used by the application. flask
  7. Now open a chrome web browser and type in http://localhost:5000/restaurant/ to display the restaurant application.
  8. You may explore the web application as a visitor, or login using facebaook or your google account login.
  9. Once you are logged in you may add new restaurants to edit and display in the web server application.
- 10. To add pictures of your restaurant you will need to to use the edit restaurant funtion. Remember, you can only edit restaurants   that you have created or have been made the owner of.
+ 10. To add pictures of your restaurant you will need to to use the edit restaurant menu page. Remember, you can only edit restaurants   that you have created or have been made the owner of.
 
 ***
 ### List of master.py module functions.

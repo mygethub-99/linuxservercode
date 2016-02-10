@@ -329,6 +329,8 @@ def editRestaurant(restaurant_id):
             editRest.phone = request.form['phone']
         if request.form['rating']:
             editRest.health_rating = request.form['rating']
+        if request.form['picture']:
+            editRest.picture = request.form['picture']
         if request.form['cuisine']:
             editRest.cuisine_cat = request.form['cuisine']
         session.add(editRest)

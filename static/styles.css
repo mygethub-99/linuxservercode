@@ -1,0 +1,346 @@
+* {
+	font-family: "Helvetica Neue Bold", Roboto, Helvetica, Arial, sans-serif;
+	font-weight: 700;
+}
+
+h1 {
+	font-family: "Helvetica Neue Light", Roboto, Helvetica, Arial, sans-serif;
+	font-size: 70px;
+	color: #51453B;
+	line-height: 60px;
+	font-weight: 300;
+}
+
+h2 {
+	font-size: 24px;
+	color: #42C3C9;
+	line-height: 29px;
+}
+
+h3 {
+	font-family: "Helvetica Neue Light", Roboto, Helvetica, Arial, sans-serif;
+	font-size: 22px;
+	color: #51453B;
+	line-height: 23px;
+	font-weight: 250;
+}
+
+h4 {
+	font-family: "Helvetica Neue Bold", Roboto, Helvetica, Arial, sans-serif;
+	font-size:85px;
+	color: #E5E1E1;
+	line-height:25px;
+	padding-top:45px;
+}
+/* Trying to make h4 responsive. */
+@media (max-width: 499px) {
+        h4 {
+    font-size:40px;
+    }
+}
+h5 {
+	font-size:15px;
+	color: #42C3C9;
+	line-height:25px;
+}
+h6 {
+	font-size:35px;
+	color: #51453B;
+	line-height: 60px;
+	font-weight: 500;
+}
+ p {
+ 	font-family: "Helvetica Neue", Roboto, Helvetica, Arial, sans-serif;
+ 	font-size: 16px;
+ 	color: #7B7573;
+ 	line-height: 24px;
+ 	font-weight: 400;
+ }
+
+ strong {
+ 	font-size: 16px;
+ 	color: #7B7573;
+ 	line-height: 24px;
+ }
+
+ a {
+ 	font-size: 14px;
+ 	color: #0093B9;
+ 	line-height: 17px;
+ }
+.padding-top {
+	padding-top: 0px;
+}
+.padmap_add {
+	padding-top:20px;
+}
+.padding-bottom {
+	padding-bottom: 10px;
+}
+.padding-bottom-mid{
+	padding-bottom:20px;
+}
+.padding-bottom-down{
+	padding-bottom:60px;
+}
+.margin-right {
+	margin-right: 30px;
+}
+.padding-none {
+	padding: 0;
+}
+.btn {
+	padding: 20px;
+	margin: 0;
+	border-color: #9FB80A;
+	border-width: 2px;
+	color: #9FB80A;;
+}
+/*added padding-big-top to for scroll lock. */
+.padding-big-top {
+	padding-top:100px;
+}
+.btn:hover {
+	border-color: #9FB80A;
+}
+.btn.delete {
+	border-color: #aaaaaa;
+	color: #aaaaaa;
+}
+.btn.delete:hover {
+	border-color: #aaaaaa;
+	color: red;
+}
+.glyphicon {
+	margin-right: 10px;
+}
+.top-menu {
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+.top-menu p {
+	margin-bottom: 0;
+	line-height: 16px;
+}
+.top-menu a {
+	margin-bottom: 0;
+	line-height: 16px;
+	font-size: 16px;
+	color: #7B7573;
+	font-weight: 400;
+}
+.divider {
+	height: 7px;
+}
+.divider.blue {
+	background-color: #42C3C9;
+	
+}
+.divider.bigblue {
+	background-color: #42C3C9;
+	height: 90px;
+	vertical-align:
+}
+.divider.green {
+	background-color: #9FB80A;	
+}
+
+.divider.christmas {
+	background-color: hsla(0, 80%, 50%, 0.85);
+}
+.banner.main {
+	height: 325px;
+	width:1095px;	
+	background: url("/static/dallasskyline2.jpg");
+	margin-right:5cm;
+	background-repeat: repeat;
+	/*background-size: 100% auto;*/
+}
+/* trying to responsive the banner.main pic. */
+@media (min-width: 499px) {
+        .banner.main {
+    background-size:50% auto;
+    }
+}
+
+.banner.menu {
+	height: 150px;
+	background-color: #E1E17F;
+}
+.banner.profile {
+	height: 150px;
+	background-color: #A6E8EB;
+}
+.banner h1 {
+	margin: 45px 0;
+}
+ .restaurant-list {
+ 	background-color: #93CCE0;
+ 	padding: 2px;
+ 	background-position: right;
+ 	margin-left:15px;
+ 	width:590px;
+b {
+	background-color: #F0F0F0;
+ 	padding: 0px;
+}
+u }
+ .restaurant-list:hover {
+ 	background-color: #46B5DC;
+ 	padding: 0px;
+}
+.menu-item {
+	background: #F0F0F0;
+	padding: 20px;
+	margin: 20px;
+	margin-left: -20px;
+}
+.menu-price {
+	font-weight: 700;
+}
+.creator {
+	padding-right: 10px;
+	margin-top: 55px;
+	text-align: center;
+	float:right;
+}
+.mapadd {
+	text-align: center;
+	vertical-align: left;
+	font-size:14px;
+	background-color: #F0F0F0;
+}
+.creator img {
+	max-height: 200px
+	
+}
+.creator figcaption {
+	font-size: 14px;
+	color: #7B7573;
+	font-weight: 400;
+	margin-top: 0px;
+	text-align: center;
+}
+.flash {
+	background-color: #98FB98;
+	width:85%;
+	text-decoration: none;
+}
+.flash li {
+	list-style-type: none;
+	text-align: center;
+}
+.mapelement {
+	font-size:14px;
+	background-color: #F0F0F0;
+	position: relative;
+	top: 50%;
+}
+@media (max-width: 499px) {
+        .title-super {
+    font-size:40px;
+    }
+}
+@media (min-width: 500px) {
+        .title-super {
+    font-size:70px;
+    }
+}
+@media (max-width: 499px) {
+        .banner h1 {
+    font-size:40px;
+    }
+}
+@media (min-width: 500px) {
+        .banner h1 {
+    font-size:70px;
+    }
+}
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+	width:40%;
+	float: bottom;
+}
+.carousel-inner {
+	margin-top:10px;
+}
+.restpic img {
+	width: 490px;
+    height: 255px;
+}
+.center {
+	max-width: 1000px;
+	margin:0 auto;
+	padding:0 20px;
+}
+header {
+	background:#231f20;
+	padding: 0;
+}
+.navbar-default {
+    list-style: none;
+    font-weight: bold;
+    margin-bottom: 0px;
+    /*width: 100%;*/
+    text-align: center;
+    background-color:#289CD0;
+    min-height: 65px;
+}
+.navbar {
+	height: 0px;
+}
+.navrow {
+	position: relative;
+	left: 0;
+	display: block;
+}
+/* I added .nav to align dropdown menu.*/
+.navbar-nav {
+	background-color: #61B3D8;
+	list-style: none;
+	text-align: right;
+	/*position: relative;*/
+	margin-bottom:0px;
+	/*height: 90px;*/
+	
+	color: #E5E1E1;
+}
+.navbar-header{
+	background-color:#289CD0;
+	height: 50px;
+	
+	/*margin-right:0;*/
+	/*margin-left:0;*/
+}
+/* adding .navbar-brand and to align header. */
+.navbar-brand{
+	/*position: relative;*/
+	/*text-align: right;*/
+	/*margin-bottom:0px;*/
+	/*left: 60px;
+	background-color:blue;*/
+	font-size:40px;
+	/*float: left;
+	padding-top:15px;
+	padding-right:15px;
+	line-height: 20px;*/
+}
+/* Controls Nav Header color */ 
+.navbar-default .navbar-brand {
+	color:#E5E1E1;
+	/*display: inline-block;*/
+	/*padding: 5px 50px;*/
+}
+/* added to change dropdown menu text color.*/
+.navbar-default .navbar-nav>li>a{
+    color: #E5E1E1;
+}
+.nav > li {
+	display: inline-block;
+	padding: 0px 50px;
+}
+.nav > li > a {
+	text-decoration: none;
+	font-size:25px;
+}
+

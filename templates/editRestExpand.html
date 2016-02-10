@@ -1,0 +1,50 @@
+{% extends "main.html" %}
+{% block content %}
+{% include "header.html" %}
+	<div class="row divider green">
+		<div class="col-md-12"></div>
+	</div>
+	<div class="row banner menu">
+		<div class="col-md-11 col-md-offset-1 padding-none">
+			<h1>{{restaurant.name}}</h1>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-6 col-md-offset-1 padding-top">
+			<form action="#" method = "post">
+				<div class="form-group">
+					<label for="name">Name:</label>
+					<input type ="text" maxlength="100" class="form-control" name="name" value="{{restaurant.name }}">
+					<label for="description">Address:</label>
+					<input type ="text" maxlength="100" class="form-control" name="address" value="{{restaurant.address }}">
+					<label for="description">Phone:</label>
+					<input type ="text" maxlength="100" class="form-control" name="phone" value="{{restaurant.phone }}">
+					<label for="description">Health Rating:</label>
+					<input type ="text" maxlength="100" class="form-control" name="rating" value="{{restaurant.health_rating }}">
+					<br>
+					<!-- Dropdown menu for cuisine select. -->
+					<label for="description">Cuisine:</label>
+					<select name="cuisine">
+						<option value="">Pick_Below</option>
+  						<option value="Greek">Greek</option>
+  						<option value="Italian">Italian</option>
+  						<option value="American">American</option>
+  						<option value="Asian">Asian</option>
+  						<option value="Vegatarian">Vegatarian</option>
+  						<option value="Mexican">Mexican</option>
+ 				 	</select>
+ 				 	<div class = "row padding-bottom-down"></div>
+					<div class="padding-bottom"></div>
+					<button type="submit" class="btn btn-default" id="submit" type="submit">
+					<span class="glyphicon glyphicon-ok" aria-hidden="true"></span>Edit</button>
+					</div>
+				</div>
+			</form>
+		</div>
+	<div class="row">
+		<div class="col-md-6 col-md-offset-1 padding-top">
+			<a href="{{url_for('showMenu', restaurant_id = restaurant.id)}}">
+ 			<button type="button" class="btn btn-default">Cancel Edit</button>
+ 		</div>
+    </div>
+{% endblock %}

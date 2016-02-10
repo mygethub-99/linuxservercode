@@ -1,0 +1,87 @@
+{% extends "main.html" %}
+{% block content %}
+
+<nav class="navbar navbar-default navbar-fixed-top"> 
+  <div class="navbar-header">
+    <a class="navbar-brand" href="#">Places to Dine</a>
+  </div>
+
+  <ul class="nav navbar-nav">
+    <li class="dropdown">
+      <a class="dropdown-toggle" data-toggle="dropdown"data-toggle="collapse" data-target=".navbar-collapse">Choose A Cuisine Here
+      <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="http://localhost:5000/restaurant/">{{food[6]}}</a></li>
+          <li><a href="http://localhost:5000/restaurant/cuisine/Greek/"
+            >{{food[3]}}</a></li>
+          <li><a href="http://localhost:5000/restaurant/cuisine/Italian/">{{food[1]}}</a></li>
+          <li><a href="http://localhost:5000/restaurant/cuisine/American/">{{food[2]}}</a></li>
+          <li><a href="http://localhost:5000/restaurant/cuisine/Asian/">{{food[0]}}</a></li>
+          <li><a href="http://localhost:5000/restaurant/cuisine/Vegetarian/">{{food[4]}}</a></li>
+          <li><a href="http://localhost:5000/restaurant/cuisine/Mexican/">{{food[5]}}</a></li>
+        </ul>
+    </li>
+          <!-- Adding "if" statement to control Navbar content. -->
+          {%if 'username' not in session %}
+          {% else %}
+          <li><a href="{{url_for('newRestaurant')}}">Add Restaurant</a></li>
+          <li><a href="{{url_for('disconnect')}}">Logout</a></li>
+          {% endif %}
+
+          {%if 'username' in session %}
+          {% else %}
+          <li><a href="{{url_for('showLogin')}}">Login</a></li>
+          {% endif %}
+
+            <li><a target="_blank"href="https://www.google.com/?gws_rd=ssl#q=top+restaurants+in+dallas+tx">Other Options</a>
+          </li> 
+  </ul>
+</nav>
+<div class="row padding-big-top">
+  <div class="col-md-12">
+  </div>
+</div>
+<div class="col-md-12">
+	<div class="row banner main">
+	  <div class="col-md-12"></div>
+  </div>
+</div>
+<div class = 'flash'>
+		  {% with messages = get_flashed_messages() %}
+      {% if messages %}
+      <ul>
+      {% for message in messages %}
+        <li> <strong> {{ message }} </strong> </li>
+        {% endfor %}
+      </ul>
+        {% endif %}
+        {% endwith %}
+</div>
+<!-- Added class row to remove full screen. -->
+<div class="row">
+	<div class="row padding-top padding-bottom">
+		<div class="col-md-1"></div>
+		<div class="col-md-10 padding-none"></div>
+		<div class="col-md-1"></div>
+  </div>
+</div>
+	{% for restaurant in restaurants %}
+		<a href = "{{url_for('showMenu', restaurant_id = restaurant.id)}}">
+			<div class="row padding-top padding-bottom">
+				<div class="col-md-7 restaurant-list text-center">
+					<h6>{{restaurant.name}}</h6>
+					<h3>{{restaurant.address}}</h3>
+					<h3>Phone Number: {{restaurant.phone}}</h3>
+          <h3>Cuisine:{{restaurant.cuisine_cat}}</h3>
+					<h3>Health Rating: {{restaurant.health_rating}}</h3>
+				</div>
+			  <div class="col-md-5">
+				  <div class = "restpic">
+      		  <img src="{{restaurant.picture}}" alt="Chania" "responsive-text">
+          </div>
+			  </div>
+			</div>
+		</a>
+  
+  {% endfor %}
+{% endblock %}

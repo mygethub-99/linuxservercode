@@ -31,7 +31,7 @@ templates folder: Contain all the .html templates used by the application. flask
  4. Once in vagrant shell (see step 1 for more details) Type in "python dropallfeb32015.py" this command will drop all tables in the      db. Very important step!
  5. Type in "python dbpopfeb3.py" to load the database with app data.
  6. Type in "python master.py" to launch the web server application.
- 7. Now open a chrome web browser and type in http://localhost:5000/restaurant/ to display the restaurant application.
+ 7. Now open a chrome web browser and type in ###http://localhost:5000/restaurant/ to display the restaurant application.
  8. You may explore the web application as a visitor, or login using facebaook or your google account login.
  9. Once you are logged in you may add new restaurants to edit and display in the web server application.
  10. To add pictures of your restaurant you will need to upgrade the web application for a fee. Nothing is really free!

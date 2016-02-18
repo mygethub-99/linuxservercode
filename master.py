@@ -1,4 +1,5 @@
-from flask import Flask, render_template, request, redirect, jsonify, url_for, flash
+from flask import Flask, render_template, request, redirect, jsonify, url_for, flash,g
+from functools import wraps
 from sqlalchemy import create_engine, asc
 from sqlalchemy.orm import sessionmaker
 # Changed the name of database builder and added user and other new 

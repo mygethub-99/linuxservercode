@@ -27,6 +27,7 @@ class Restaurant(Base):
     picture = Column(String(250), nullable=True)
     user_id = Column(Integer, ForeignKey('user.id'))
     user = relationship(User)
+    menuitem = relationship("MenuItem", cascade="save-update, merge, delete")
     
     @property
     def serialize(self):
@@ -39,9 +40,10 @@ class Restaurant(Base):
             'cuisine_cat' : self.cuisine_cat,
             'picture' : self.picture,
             'id': self.id,
+            'user_id' : self.user_id
         }
 
-
+#added ondelete='CASCADE' to restaurant_id column
 class MenuItem(Base):
     __tablename__ = 'menu_item'
 
@@ -51,7 +53,7 @@ class MenuItem(Base):
     price = Column(String(8))
     course = Column(String(250))
     restaurant_id = Column(Integer, ForeignKey('restaurant.id'))
-    restaurant = relationship(Restaurant)
+    restaurant = relationship('Restaurant')
     user_id = Column(Integer, ForeignKey('user.id'))
     user = relationship(User)
 
@@ -71,3 +73,4 @@ engine = create_engine('sqlite:///restaurantmapped.db')
 
 
 Base.metadata.create_all(engine)
+

@@ -66,6 +66,12 @@
         <h1 class="title-super text-thin">{{restaurant.name}}</h1>
         <h3>{{restaurant.address}}</h3>
         <h3>{{restaurant.phone}}</h3>
+        {%if 'username' not in session %}
+		{% else %}
+        <h3>Restaurant Owner: {{creator.email}}
+        <br>
+        <br>
+        {% endif %}
         <a target="_blank" href="https://www.google.com/maps/dir/''/{{restaurant.address}}"<>Tap/Click</a> For Directions.
         <br>
       	</div>
@@ -178,3 +184,4 @@
 						
 	{% endif %}
 {% endblock %}
+

@@ -60,6 +60,8 @@ editMenuItem will allow the user to edit a menuitem that they are a owner of.
 
 deleteMenuItem allows the user to delete a menu item.
 
+notallowed notifies the user of when they have attempted to edit or delete a web page they do not have rights to access.
+
 
 
 

@@ -1,0 +1,13 @@
+{% extends "main.html" %}
+{% block content %}
+{% include "header.html" %}
+<h2> You have attempted to edit or delete an item that does not belong to you. This is not allowed. </h2>
+<h2> Have a nice day.<h2>
+	<div class="col-md-6 col-md-offset-1 padding-top">
+		<div class="container">
+			<a href="{{url_for('showRestaurants')}}">
+ 			<button type="button" class="btn btn-default">Click Here to Return to Restaurants</button>
+ 		</div></a>
+ 	</div>
+
+{% endblock %}

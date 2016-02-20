@@ -289,7 +289,7 @@ def restaurantsJSON():
 
 # Show all restaurants.
 @app.route('/')
-@app.route('/restaurant/') 
+@app.route('/restaurant/')
 def showRestaurants():
     restaurants = session.query(Restaurant).order_by(asc(Restaurant.name))
     cuisine = session.query(Restaurant).order_by(asc(Restaurant.cuisine_cat))

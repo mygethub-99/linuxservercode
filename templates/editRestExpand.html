@@ -23,9 +23,10 @@
 					<input type ="text" maxlength="100" class="form-control" name="rating" value="{{restaurant.health_rating }}">
 					<label for="description">Add Restaurant Picture(Example: File path must use /static/filename.jpg):</label>
 					<input type ="text" maxlength="100" class="form-control" name="picture" value={{restaurant.picture}}>
+					<div class="padding-bottom"></div>
 					<br>
 					<!-- Dropdown menu for cuisine select. -->
-					<label for="description">Cuisine:</label>
+					<label style="float:left;width:25%" for="description">Cuisine:</label>
 					<select name="cuisine">
 						<option value="">Pick_Below</option>
   						<option value="Greek">Greek</option>
@@ -35,7 +36,7 @@
   						<option value="Vegatarian">Vegatarian</option>
   						<option value="Mexican">Mexican</option>
  				 	</select>
- 				 	<div class = "row padding-bottom-down"></div>
+ 				 	<div class = "row"></div>
 					<div class="padding-bottom"></div>
 					<button type="submit" class="btn btn-default" id="submit" type="submit">
 					<span class="glyphicon glyphicon-ok" aria-hidden="true"></span>Edit</button>
@@ -53,3 +54,4 @@
 <div class="row">
 		<div class="col-md-6 col-md-offset-1 padding-bottom">
 </div>
+{% endblock %}

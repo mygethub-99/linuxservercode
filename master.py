@@ -1,11 +1,13 @@
 from flask import Flask, render_template, request, redirect, jsonify, url_for
-from flask import flash, g
+from flask import flash
 from functools import wraps
 from sqlalchemy import create_engine, asc
 from sqlalchemy.orm import sessionmaker
 # Changed the name of database builder and added user and other new.
 from feb32015db import Base, Restaurant, MenuItem, User
 from flask import session as login_session
+from flask.ext import excel
+import pyexcel.ext.xls
 import random
 import string
 from oauth2client.client import flow_from_clientsecrets
@@ -285,6 +287,19 @@ def menuItemJSON(restaurant_id, menu_id):
 def restaurantsJSON():
     restaurants = session.query(Restaurant).all()
     return jsonify(restaurants=[r.serialize for r in restaurants])
+    
+    
+# Excel Export APIs to view Restaurant Information.
+@app.route("/export/restaurant/xls", methods=['GET'])
+def exportRest():
+    return excel.make_response_from_tables(session, [Restaurant], "xls")
+    
+
+@app.route("/export/custom_export", methods=['GET'])
+def customeExportt():
+    get_list = session.query(Restaurant).order_by(Restaurant.name)
+    column_names = ['name', 'address', 'phone', 'health_rating']
+    return excel.make_response_from_query_sets(get_list, column_names, "xls")
 
 
 # Show all restaurants.

@@ -35,7 +35,7 @@ templates folder: Contain all the .html templates used by the application. flask
  8. You may explore the web application as a visitor, or login using facebaook or your google account login.
  9. Once you are logged in you may add new restaurants to edit and display in the web server application.
  10. To add pictures of your restaurant you will need to to use the edit restaurant menu page. Remember, you can only edit restaurants   that you have created or have been made the owner of.
- 11. User will need to pip install Flask-Excel and a plug in pip install pyexcel-xls for the excel export feature to work.
+ 11. User will need to pip install Flask-Excel and plug in, pyexcel-xls, for the excel export feature to work.
  12. Link to [Flask Excel] (http://flask-excel.readthedocs.org/en/latest/)
 
 ***

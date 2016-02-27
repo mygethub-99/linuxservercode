@@ -35,10 +35,14 @@ templates folder: Contain all the .html templates used by the application. flask
  8. You may explore the web application as a visitor, or login using facebaook or your google account login.
  9. Once you are logged in you may add new restaurants to edit and display in the web server application.
  10. To add pictures of your restaurant you will need to to use the edit restaurant menu page. Remember, you can only edit restaurants   that you have created or have been made the owner of.
+ 11. User will need to pip install Flask-Excel and a plug in pip install pyexcel-xls for the excel export feature to work.
+ 12. Link to [Flask Excel]. (http://flask-excel.readthedocs.org/en/latest/)
 
 ***
 ### List of master.py module functions.
 Functions login, fbconnect, fbdisconnect, gconnect, creatUser, getUserInfo, getUserID, gdisconnect, and disconnect are used for logging in or out of the application using oauth function via facebook and google.
+
+login_required decorator used to redirect a user to the login page.
 
 restaurantMenuJSON, menuItemJSON, restaurantJSON, and showRestaurantJSON are used to create output to mobile devices.
 
@@ -62,6 +66,9 @@ deleteMenuItem allows the user to delete a menu item.
 
 notallowed notifies the user of when they have attempted to edit or delete a web page they do not have rights to access.
 
+exportRest will allow the user to export the Restaurant table to excel from the sqlalchemy db.
+
+customExport give the coder the option to control the scope of the export.
 
 
 

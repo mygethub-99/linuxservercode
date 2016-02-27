@@ -296,7 +296,7 @@ def exportRest():
     
 
 @app.route("/export/custom_export", methods=['GET'])
-def customeExportt():
+def customExport():
     get_list = session.query(Restaurant).order_by(Restaurant.name)
     column_names = ['name', 'address', 'phone', 'health_rating']
     return excel.make_response_from_query_sets(get_list, column_names, "xls")

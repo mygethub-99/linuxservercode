@@ -36,7 +36,7 @@ templates folder: Contain all the .html templates used by the application. flask
  9. Once you are logged in you may add new restaurants to edit and display in the web server application.
  10. To add pictures of your restaurant you will need to to use the edit restaurant menu page. Remember, you can only edit restaurants   that you have created or have been made the owner of.
  11. User will need to pip install Flask-Excel and a plug in pip install pyexcel-xls for the excel export feature to work.
- 12. Link to [Flask Excel]. (http://flask-excel.readthedocs.org/en/latest/)
+ 12. Link to [Flask Excel] (http://flask-excel.readthedocs.org/en/latest/)
 
 ***
 ### List of master.py module functions.
@@ -68,7 +68,7 @@ notallowed notifies the user of when they have attempted to edit or delete a web
 
 exportRest will allow the user to export the Restaurant table to excel from the sqlalchemy db.
 
-customExport give the coder the option to control the scope of the export.
+customExport gives the coder the option to control the scope of the export.
 
 
 

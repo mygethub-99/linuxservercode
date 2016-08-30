@@ -8,7 +8,8 @@ logging.basicConfig(level=logging.DEBUG)
 logging.getLogger('sqlalchemy.engine.base').setLevel(logging.DEBUG)
 echo = True
 
-engine = create_engine('sqlite:///restaurantmapped.db')
+#engine = create_engine('sqlite:///restaurantmapped.db')
+engine = create_engine('postgresql://catalog:mydata@localhost/catalog')
 Base.metadata.bind=engine
 DBSession = sessionmaker(bind = engine)
 session = DBSession()

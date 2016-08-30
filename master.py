@@ -6,7 +6,7 @@ from sqlalchemy.orm import sessionmaker
 # Changed the name of database builder and added user and other new.
 from feb32015db import Base, Restaurant, MenuItem, User
 from flask import session as login_session
-from flask.ext import excel
+from flask_excel
 import pyexcel.ext.xls
 import random
 import string
@@ -30,7 +30,8 @@ APPLICATION_NAME = "Restaurant Menu Application"
 
 
 # Connect to Database and create database session.
-engine = create_engine('sqlite:///restaurantmapped.db')
+#engine = create_engine('sqlite:///restaurantmapped.db')
+engine = create_engine('postgresql://catalog:mydata@localhost/catalog')
 Base.metadata.bind = engine
 
 DBSession = sessionmaker(bind=engine)

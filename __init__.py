@@ -7,7 +7,7 @@ from sqlalchemy.orm import sessionmaker
 from feb32015db import Base, Restaurant, MenuItem, User
 from flask import session as login_session
 import flask_excel
-import pyexcel.ext.xls
+#import pyexcel.ext.xls
 import random
 import string
 from oauth2client.client import flow_from_clientsecrets
@@ -25,7 +25,7 @@ echo = False
 app = Flask(__name__)
 
 CLIENT_ID = json.loads(
-    open(r'var/www/Catalog/catalog/client_secrets.json', 'r').read())['web']['client_id']
+    open(r'/var/www/Catalog/catalog/client_secrets.json', 'r').read())['web']['client_id']
 APPLICATION_NAME = "Restaurant Menu Application"
 
 
@@ -58,10 +58,10 @@ def fbconnect():
     access_token = request.data
     print "access token received %s " % access_token
 
-    app_id = json.loads(open(r'var/www/Catalog/catalog/fb_client_secrets.json', 'r').read())[
+    app_id = json.loads(open(r'/var/www/Catalog/catalog/fb_client_secrets.json', 'r').read())[
         'web']['app_id']
     app_secret = json.loads(
-        open(r'var/www/Catalog/catalog/fb_client_secrets.json', 'r').read())['web']['app_secret']
+        open(r'/var/www/Catalog/catalog/fb_client_secrets.json', 'r').read())['web']['app_secret']
     url = 'https://graph.facebook.com/oauth/access_token?grant_type=fb_exchange_token&client_id=%s&client_secret=%s&fb_exchange_token=%s' % (
         app_id, app_secret, access_token)
     h = httplib2.Http()

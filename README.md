@@ -6,16 +6,32 @@ The host server is reachable at http://ec2-52-41-58-45.us-west-2.compute.amazona
 Main Project Milestones
 Server Access
 Server Security
-Install Server Applications
+Server Configuration/Applications
 ****
-Server Access
+#Server Access
 IP address: 52.41.58.46
-SSH PORT: 2200
+SSH Incoming PORT: 2200
+TCP Incoming port 80 opened
+UDP Incoming port 123
 Web Application URL: http://52.41.58.45
+
 *AWS-Server:http://ec2-52-41-58-45.us-west-2.compute.amazonaws.com
-Server access is setup for user grader
-ssh -i ~/.ssh/grader -p 2200 grader@52.41.58.45
-password phrase is: grader12
+Server access has been setup for user grader with sudo access
+
+*ssh -i ~/.ssh/grader -p 2200 grader@52.41.58.45
+*password phrase is: grader12
+
+#Security
+Server firewall has been activated
+Port 2200 has been opened for ssh access
+ssh keys have been installed for user "grader"
+
+#Server Configuration/Applications
+Server time has been set to UTC
+Installed Applications
+*Apache2
+
+
 
 
 

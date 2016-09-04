@@ -1,6 +1,13 @@
-# Fullstack Nano Degree Project 3
+# FSND Linux Server
 
+This FSND project requires the configuration of a Linux server VM that will be used to host a catalog application. The catalog web project that is hosted on this server project is a web site that highlights a few of the Dallas Texas area restaurants.
+The host server is reachable at http://ec2-52-41-58-45.us-west-2.compute.amazonaws.com
 ****
+Main Project Milestones
+Server Access
+Server Security
+Install Server Applications
+
 
 ## Name of Project: Dallas Texas Restaurant app.
 

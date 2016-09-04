@@ -7,6 +7,18 @@ Main Project Milestones
 Server Access
 Server Security
 Install Server Applications
+****
+Server Access
+IP address: 52.41.58.46
+SSH PORT: 2200
+Web Application URL: http://52.41.58.45
+*AWS-Server:http://ec2-52-41-58-45.us-west-2.compute.amazonaws.com
+Server access is setup for user grader
+ssh -i ~/.ssh/grader -p 2200 grader@52.41.58.45
+password phrase is: grader12
+
+
+
 
 
 ## Name of Project: Dallas Texas Restaurant app.

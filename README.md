@@ -9,6 +9,7 @@ Server Security
 Server Configuration/Applications
 ****
 #Server Access
+
 IP address: 52.41.58.46
 
 SSH Incoming PORT: 2200
@@ -19,11 +20,11 @@ UDP Incoming port 123
 
 Web Application URL: http://52.41.58.45
 
-*AWS-Server:http://ec2-52-41-58-45.us-west-2.compute.amazonaws.com
+AWS-Server:http://ec2-52-41-58-45.us-west-2.compute.amazonaws.com
 Server access has been setup for user grader with sudo access
 
-*ssh -i ~/.ssh/grader -p 2200 grader@52.41.58.45
-*password phrase is: grader12
+ssh -i ~/.ssh/grader -p 2200 grader@52.41.58.45
+--password phrase is: grader12
 
 #Security
 

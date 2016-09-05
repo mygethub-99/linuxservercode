@@ -31,15 +31,22 @@ Port 2200 has been opened for ssh access
 ssh keys have been installed for user "grader"
 
 #Server Configuration/Applications
+
 Server time has been set to UTC
+
 Installed Applications
-*Apache2
-Python-setuptools
-libapache2-mod-wsgi
-Git Application
-libapache2-mod-wsgi python-dev
-python-pip
-virtualenv
+
+* Apache2
+
+* Python-setuptools
+
+* libapache2-mod-wsgi
+
+* Git Application
+
+* libapache2-mod-wsgi python-dev
+* python-pip
+* virtualenv
 Flask
 httplib2
 requests

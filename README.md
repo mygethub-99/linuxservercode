@@ -5,7 +5,7 @@ The host server is reachable at http://ec2-52-41-58-45.us-west-2.compute.amazona
 ****
 Main Project Milestones
 Server Access
-Server Security
+[[Server Security]]
 Server Configuration/Applications
 ****
 #Server Access
@@ -24,9 +24,12 @@ AWS-Server:http://ec2-52-41-58-45.us-west-2.compute.amazonaws.com
 Server access has been setup for user grader with sudo access
 
 ssh -i ~/.ssh/grader -p 2200 grader@52.41.58.45
+
 --password phrase is: grader12
 
-#Security
+****
+
+#Server Security
 
 * Server firewall has been activated
 
@@ -75,6 +78,22 @@ Installed Applications
 * postgesql
 
 * postgresql-contrib
+
+****
+
+#Database Setup
+
+The catalog database has been setup to use Postgresql
+
+Access and ownership of the catalog database has been given to user "catalog"
+
+* catalog db password is "mydata"
+
+The catalog db tables have been setup by [Link to db setup] (https://github.com/mygethub-99/linuxservercode/blob/master/feb32015db.py)
+
+Catalog db has been populated using [Link to db setup] (https://github.com/mygethub-99/linuxservercode/blob/master/dbpopfeb3.py)
+
+
 
 
 

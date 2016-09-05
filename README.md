@@ -10,9 +10,13 @@ Server Configuration/Applications
 ****
 #Server Access
 IP address: 52.41.58.46
+
 SSH Incoming PORT: 2200
+
 TCP Incoming port 80 opened
+
 UDP Incoming port 123
+
 Web Application URL: http://52.41.58.45
 
 *AWS-Server:http://ec2-52-41-58-45.us-west-2.compute.amazonaws.com
@@ -30,6 +34,26 @@ ssh keys have been installed for user "grader"
 Server time has been set to UTC
 Installed Applications
 *Apache2
+Python-setuptools
+libapache2-mod-wsgi
+Git Application
+libapache2-mod-wsgi python-dev
+python-pip
+virtualenv
+Flask
+httplib2
+requests
+flask-seasurf
+oauth2client
+python-psycopg2
+sqlalchemy
+flask_excel
+postgesql
+postgresql-contrib
+
+
+
+
 
 
 

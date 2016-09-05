@@ -5,7 +5,7 @@ The host server is reachable at http://ec2-52-41-58-45.us-west-2.compute.amazona
 ****
 #Main Project Milestones
 
-*##Server Access
+## '''Server Access'''
 
 Server Security
 

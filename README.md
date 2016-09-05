@@ -26,7 +26,7 @@ Web Application URL: http://52.41.58.45
 AWS-Server:http://ec2-52-41-58-45.us-west-2.compute.amazonaws.com
 Server access has been setup for user grader with sudo access
 
-ssh -i ~/.ssh/grader -p 2200 grader@52.41.58.45
+ssh -i ~/.ssh/linuxNew -p 2200 grader@52.41.58.45
 
 --password phrase is: grader12
 

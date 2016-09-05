@@ -69,7 +69,6 @@ class MenuItem(Base):
         }
 
 
-#engine = create_engine('sqlite:///restaurantmapped.db')
 engine = create_engine('postgresql://catalog:mydata@localhost/catalog')
 
 

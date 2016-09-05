@@ -26,9 +26,14 @@ Server access has been setup for user grader with sudo access
 *password phrase is: grader12
 
 #Security
-Server firewall has been activated
-Port 2200 has been opened for ssh access
-ssh keys have been installed for user "grader"
+
+* Server firewall has been activated
+
+* Port 2200 has been opened for ssh access
+
+* ssh keys have been installed for user "grader"
+
+****
 
 #Server Configuration/Applications
 
@@ -45,18 +50,30 @@ Installed Applications
 * Git Application
 
 * libapache2-mod-wsgi python-dev
+
 * python-pip
+
 * virtualenv
-Flask
-httplib2
-requests
-flask-seasurf
-oauth2client
-python-psycopg2
-sqlalchemy
-flask_excel
-postgesql
-postgresql-contrib
+
+* Flask
+
+* httplib2
+
+* requests
+
+* flask-seasurf
+
+* oauth2client
+
+* python-psycopg2
+
+* sqlalchemy
+
+* flask_excel
+
+* postgesql
+
+* postgresql-contrib
 
 
 

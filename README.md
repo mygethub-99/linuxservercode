@@ -42,10 +42,6 @@ ssh -i ~/.ssh/linuxNew -p 2200 grader@52.41.58.45
 ****
 #Server Applications
 
-Server time has been set to UTC
-
-Installed Applications
-
 * Apache2
 
 * Python-setuptools

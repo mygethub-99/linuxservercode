@@ -40,7 +40,9 @@ ssh -i ~/.ssh/linuxNew -p 2200 grader@52.41.58.45
 * Port 2200 has been opened for ssh access
 
 * ssh keys have been installed for user "grader"
+
 ****
+
 # Server Packages Installed
 
 * Apache2 -- HTTP Server
@@ -61,6 +63,7 @@ ssh -i ~/.ssh/linuxNew -p 2200 grader@52.41.58.45
 * postgresql-contrib
 
 ****
+
 # Server Configuration
 
 * [.bash_log] (https://github.com/mygethub-99/linuxservercode/blob/master/.bash_log)
@@ -87,6 +90,7 @@ ssh -i ~/.ssh/linuxNew -p 2200 grader@52.41.58.45
 * Corrected the G and FB Oauth-logins by correction the directory link to the client_secret.json files.
 * Added Amazon host server link to the FB and G developers console credentials.
 ****
+
 #Database Setup
 
 The catalog database has been setup to use a Postgresql db

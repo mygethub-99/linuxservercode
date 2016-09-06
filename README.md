@@ -101,7 +101,7 @@ Installed Applications
 * Configured the virtual host by creating and configuring catalog.conf file.
 * Created the catalog.wsgi file with needed web application code.
 * Added a git repository called gitrepo under the /catalog/gitrepo directory to push/pull the linux server web application.
-..* http://juristr.com/blog/2013/04/git-explained/
+  * http://juristr.com/blog/2013/04/git-explained/
 
 ****
 

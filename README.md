@@ -12,7 +12,9 @@ The host server is reachable at http://ec2-52-41-58-45.us-west-2.compute.amazona
 * Server Applications
 
 * Server Configuration
+
 ****
+
 # Server Access
 
 IP address: 52.41.58.46

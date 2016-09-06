@@ -1,0 +1,784 @@
+grader@ip-10-20-35-176:/home/builder$ sudo cat .bash_history
+[sudo] password for grader:
+Sorry, try again.
+[sudo] password for grader:
+pwd
+ls -al
+mkdir .ssh
+ls -al
+cd .ssh
+touch .ssh/authorized_keys
+pwd
+touch authorized_keys
+ls -al
+nano auth*
+cat auth*
+cd ..
+pwd
+chmod 700 .ssh
+ls -al
+chmod 644 .ssh/authorized_keys
+ls -al .ssh/auth*
+sudo /etc/hosts
+sudo cat /etc/hosts
+sudo ufw allow 80/tcp
+sudo ufw status
+sudo ufw allow 123/udp
+sudo ufw status
+sudo ufw disable
+sudo ufw enable
+sudo apg-get install apache2
+sudo apt-get install apache2
+sudo apt-get install python-setuptools libapache2-mod-wsgi
+sudo apt-get remove --purge libapache2-mod-wsgi
+sudo apt-get install python-setuptools libapache2-mod-wsgi
+sudo nano cat /etc/apache2/sites-enabled/000-default.conf
+sudo nano /etc/apache2/sites-enabled/000-default.conf
+sudo apache2ctl restart
+echo "ServerName 52.41.58.45" | sudo tee /etc/apache2/conf-available/fqdn.conf
+sudo a2encof fqdn
+sudo a2enconf fqdn
+sudo apache2ctl restart
+sudo service apache2 reload
+sudo apt-get install git
+git config --global user.name "mygethub-99"
+git config --global user.email "tomakeitcount@gmail.com"
+sudo apt-get install libapache2-mod-wsgi python-dev
+sudo a2enmod wsgi
+cd /var/www
+ls -al
+mkdir Catalog
+sudo mkdir Catalog
+ls -al
+cd Cata*
+pwd
+ls -al
+cd /home
+ls
+cd builder
+ls
+ls -al
+mkdir dude
+ls -al
+rm dude
+rmdir dude
+ls -al
+cd /var/www/Cat*
+ls
+ls -al
+sudo mkdir catalog
+ls
+cd catalog
+mkdir static templates
+sudo mkdir static templates
+ls -al
+pwd
+touch __init__.py
+sudo touch __init__.py
+ls -al
+sudo nano __init*
+sudo cat __init*
+sudo apt-get install python.pip
+sudo pip install virtualenv
+sudo virtualenv venv
+var/www/Catalog/catalog$ sudo chmod -R 777 venv
+sudo chmod -R 777 venv
+ls -al
+source venv/bin/activate
+python __init__.py
+ls -al
+sudo rm __init__.py
+ls -al
+touch _\_\init\_\_.py
+sudo touch _\_\init\_\_.py
+ls -al
+sudo nano __init*
+sudo cat __int*
+sudo cat _\_|init*
+sudo cat _\_\init*
+pip install Flask
+python __init__.py
+cd /home
+ls
+cd bigo
+ls -al
+sudo rmdir .ssh
+cd .ssh
+sudo cd .ssh
+ls
+ls -al
+sudo cd .ssh
+pwd
+ls -al
+cd .ssh
+sudo cd /.ssh
+sudo chmod 777 .ssh
+cd .ssh
+ls
+sudo rm authorized_keys
+ls
+cd ..
+ls -al
+rmdir .ssh
+sudo rmdir .ssh
+ls
+ls -al
+cd ..
+ls
+cd builder
+ls
+ls -al
+cd cat
+sudo cat cat
+cd ..
+ls
+cd bigo
+ls -al
+rm auth*
+rm bigo/auth*
+ls -al
+sudo rm auth*
+ls -al
+su bigo
+logout
+ls -al
+pwd
+cat cat
+rm cat
+sudo cat /etc/apache2/sites-enabled/000-default.conf
+sudo python __init__.py
+pwd
+ls -al
+cd /grader
+pwd
+cd ..
+cd grader
+ls -al
+cd ..
+cd bulder
+cd builder
+ls
+ls -al
+sudo rm cat
+ls -al
+sudo cat .bash_history
+cd /var/www
+ls
+cd Cat*
+ls
+ls -al
+cd catalog/
+ls -al
+sudo python __init__.py
+sudo cat .bash_history
+sudo apt-get install python.pip
+sudo pip install virtualenv
+sudo virtualenv venv
+source venv/bin/activate
+sudo pip install Flask
+sudo python __init__.py
+disable
+deactivate
+sudo nano /etc/apacke2/sites-available/catalog.conf
+pwd
+cd /etc/apacke2
+sudo nano /etc/apache2/sites-available/catalog.conf
+sudo cat /etc/apache2/sites-available/catalog.conf
+cd /etc/apache2/sites-available/
+pwd
+ls -al
+pwd
+cd /var/www/Catalog
+ls -al
+cd catalog
+ls -al
+touch catalog.conf
+sudo catalog.conf
+sudo touch catalog.conf
+ls -al
+sudo nano catalog.conf
+cat cata*
+ls -al
+sudo a2ensite catalog.wsgi
+ls -al
+cd ..
+ls -al
+cd ..
+ls
+ls -al
+touch catalog.wsgi
+sudo touch catalog.wsgi
+sudo nano catalog.wsg*
+sudo a2ensite catalog.wsgi
+ls -al
+pwd
+ls -al
+mv catalog.wsgi /var/www/Catalog
+sudo mv catalog.wsgi /var/www/Catalog
+ls -al
+cd Catalog
+ls -al
+sudo a2ensite catalog.wsgi
+ls -al
+cat catalgo.ws*
+cat catalog.wsgi
+cd /var/www/Catalog/
+ls
+cd catalog/
+ls
+nano __init__.py
+ls
+nano feb32015db.py
+logout
+pwd
+cd /var/www/Catalog/catalog/
+ls
+cd backup
+ls
+git init
+sudo git inti
+sudo git init
+git add
+sudo git add
+ls
+cd .git
+ls
+cd ..
+ls -alh
+sudo git add .
+ls
+cd .git
+ls
+ls -al
+cd objects
+ls
+cd ..
+ls
+git commit -m "Initial Commit" -a
+sudo git commit -m "Initial Commit" -a
+git remote add origin ssh://git@git.domain.tld/repository.get
+sudo git remote add origin ssh://git@git.domain.tld/repository.get
+git remote -v
+sudo git remote add origin https://github.com/mygethub-99/linuxserverproj.git
+ls
+git
+git remote -v
+sudo git remote set-url origin https://github.com/mygethub-99/linuxserverproj.git
+git remote -v
+git push
+ls
+git push
+get branch server2
+git status
+git branch
+git brand server2
+git branch server2
+sudo git branch server2
+git branch
+git pull
+sudo git pull
+git remote add upstream
+sudo remote add upstream https://github.com/mygethub-99/linuxserverproj.git
+sudo git remote add upstream https://github.com/mygethub-99/linuxserverproj.git
+git fetch upstream
+sudo git fetch upstream
+sudo git push master
+git remote -v
+git push origin master
+git branch -a
+file
+git merge remotes/upstream/master
+sudo git merge remotes/upstream/master
+ls
+nano readme.md
+nano READ.md
+cat README.md
+sudo git fetch upstream
+git branch -a
+sudo git merge remotes/upstream/master
+exit
+sudo git remote add upstream https://github.com/mygethub-99/project3submit1.git
+git remote rm destination
+git remote-v
+git remote -v
+cd /var/www/Catalog/catalog/
+ls
+cd backup
+ls
+cd .get
+ls
+git remote -v
+git remote rm upstream
+sudo git remote rm upstream
+git remote -v
+ls -al
+cd /var/www/
+ls
+cd Catalog
+ls
+cd catalog
+ls
+nano __init__.py
+sudo nano __init__.py
+ls
+cat client_se
+cat client_secrets.json
+sudo nano __init__.py
+ls
+sudo cd ..
+cd catalog
+ls
+cd ..
+ls
+sudo rm /catalog/*.py
+cd catalog
+ls
+sudo rm dbpopfeb3.py
+sudo rm dropallfeb32015.py
+sudo rm feb32015db.py
+sudo rm __init__.py
+ls
+sudo rm __init__.py.save
+ls
+sudo feb32015.pyc
+sudo rm feb32015.pyc
+ls
+sudo rm restaurantmapped.db
+ls
+sudo rm client_secrets.json
+ls
+sudo rm fb_client_secrets.json
+ls
+cd static
+ls
+cd ..
+sudo rmdir static
+cd /static
+ls
+cd static
+ls
+rm auntannies.jpg
+sudo rm auntannies.jpg
+sudo rm chinese.jpg
+sudo rm dallasskyline2.jpg
+sudo rm dish1.jpg
+sudo rm dish2.jpg
+ls
+sudo rm dish4.jpg
+ls
+sudo rm stirfry.jpg
+ls
+sudo rm stratos.PNG
+sudo rm styles.css
+sudo tonybistro.png
+sudo rm tonybistro.png
+sudo rm tonysbistro.png
+ls
+sudo rm picturezips.zip
+sudo rm urbanburger.png
+ls
+rm dish3.jpg
+sudo rm dish3.jpg
+ls
+sudo rm andala.PNG
+ls
+sudo rm Mexican.PNG
+ls
+sudo rm veg.jpg
+ls
+cd ..
+ls
+cd templates
+ls
+cd ..
+ls
+rm -r /templates
+ls
+ls -al
+sudo rm -r /templatesd
+sudo rm -r /templates
+sudo rm -r templates
+ls
+cd backup
+ls
+sudo rm client_secrets.json
+sudo rm dbpopfeb3.py
+sudo rm fb_client_secrets.json
+ls
+sudo rm feb32015db.py
+ls
+sudo rm __init__.py
+ls
+sudo rm dropallfeb32015.py
+ls
+sudo rm README.md
+ls
+rm -r static
+sudo rm -r static
+ls
+sudo rm -r templates
+ls
+cd .get
+ls
+ls -al
+cd .git
+ls
+git remote -v
+git remote rename origin destination
+git remote -v
+git remote rm destination
+cd ..
+ls
+sudo rm .git
+sudo rmdir .git
+sudo rmdir -r .git
+cd ..
+ls
+mkdir gitrepo
+sudo mkdir gitrepo
+ls
+git init
+sudo git inti
+sudo git init
+ls -al
+git add
+sudo git add
+sudo git add .
+ls
+cd gitrepo
+ls
+ls -al
+cd ..
+ls -alh
+git remove .
+git help
+sudo git rm .
+sudo git rem -r
+sudo git rm -r
+ls
+ls -al
+cd gitrepo
+ls
+git init
+sudo git init
+git add .
+sudo git add .
+ls
+ls -al
+git commit -m "initial Commit" -a
+sudo git commit -m "initial Commit" -a
+git remote add orgin https://github.com/mygethub-99/linuxservercode
+sudo git remote add orgin https://github.com/mygethub-99/linuxservercode
+git remote -v
+git pull origin master
+sudo git pull origin master
+git remote -v
+git remote rename origin htt
+sudo git remote rename origin https://github.com/mygethub-99/linuxservercode.git
+git remote -v
+sudo git remote rename orgin https://github.com/mygethub-99/linuxservercode.git
+sudo git remote rm origin
+sudo git remote rm orgin
+git remote -v
+sudo git remote add origin https://github.com/mygethub-99/linuxservercode.git
+git remote -v
+git pull origin master
+sudo git pull origin master
+ls
+cd ..
+ls
+cd gitrepo
+ls
+sudo copy -a /gitrepo. /catalog
+sudo cp -a /gitrepo. /catalog
+cd ..
+sudo cp -a /gitre. /catalog
+sudo cp -a /gitrepo. /catalog
+sudo cp -a /gitrepo. catalog
+ls
+cp -a /gitrepo/. /catalog/
+cp -a gitrepo/. /catalog/
+sudo cp -a gitrepo/. /catalog/
+ls
+cd /
+ls
+cd catalog
+ls
+cd ..
+ls
+cd /var/www/Catalog/catalog/
+ls
+sudo cp -a gitrepo/. /var/www/Catalog/catalog
+ls
+source venv/bin/activate
+deactivate
+sudo service apache2 restart
+source venv/bin/activate
+ls
+python __init__.py
+sudo nano __init__.py
+python __init__.py
+ls
+python __init__.py
+ls
+cd gitrepo
+sudo git pull origin master
+ls
+sudo nano __init__.py
+cd ..
+ls
+sudo cp -a gitrepo/. /var/www/Catalog/catalog
+ls
+cat __init__.py
+ls
+python __init__.py
+sudo a2ensite catalog
+restart apache2
+disable
+deactivate
+restart apache2
+sudo ufw status
+sudo nano apache2.conf
+sudo nano /etc/apache2/sites-available/catalog.conf
+exit
+cd var
+ls
+pwd
+cd /var
+ls
+cd log
+ls
+tail -60 /var/log/apache2/error.log
+sudo tail -60 /var/log/apache2/error.log
+ls
+sudo service apache2ctl restart
+pwd
+cd ..
+pwd
+cd /
+sudo service apache2 restart
+sudo tail -60 /var/log/apache2/error.log
+pwd
+cd /var/www/html
+ls
+cat index.html
+sudo nano /etc/apache2/sites-enabled/000-default.conf
+ls
+cd /etc/apache2
+ls
+cd sites-enabled/
+ls
+cat catalog.conf
+ls
+pwd
+cd ..
+ls
+cd sites-available/
+ls
+cat 000-default.conf
+ls
+cat catalog.conf
+ls
+cat default-ssl.conf
+ls
+cd ..
+ls
+pwd
+cd /var/Catalog
+ls
+cd /var/www/Catalog
+ls
+cat catalog.wsgi
+nano catalog.wsgi
+sudo nano catalog.wsgi
+sudo service apache2 restart
+sudo nano catalog.wsgi
+sudo service apache2 restart
+sudo tail -60 /var/log/apache2/error.log
+cd catalog
+ls
+python dropallfeb32015.py
+source venv/bin/activate
+ls
+python dropallfeb32015.py
+psql
+sudo su postgres
+sudo apache2ctl restart
+sudo service apache2 restart
+logout
+ls
+ls -al
+ls
+pwd
+cd /var/www/Catalog/cat
+cd /var/www/Catalog/catalog
+ls
+cd gitrepo
+ls
+python dropallfeb32015.py
+ls
+python dbpopfeb3.py
+cd ..
+ls
+cd gitrepo
+ls
+cat dbpopfeb3.py
+ls
+python dropallfeb32015.py
+exit
+sudo wfw status
+sudo ufw status
+cd /etc/apache2/sites-available/
+ls
+cat catalog.conf
+cd /var/www/Catalog/catalog/
+ls
+cd ..
+ls
+cat catalog.wsgi
+cd catalob
+ls
+cd catalog
+ls
+cd gitrepo
+ls
+git branch -a
+ls
+git pull
+sudo git pull
+git branch
+git remote -v
+git fetch
+sudo it fetch
+sudo git fetch
+ls -al
+cd templates/
+ls
+ls -al
+cd ..
+ls
+git remote -v
+sudo git fetch origin
+sudo git merge origin master
+sudo git fetch origin/master
+sudo git pull origin
+git branch
+sudo git pull origin master
+git stash
+sudo git stash
+ls -al
+date
+sudo git pull
+sudo git pull master
+sudo git pull origin
+ls
+ls -al
+cd /var/www/Catalog/catalog/
+ls
+cd gitrepo
+ls
+sudo git pull
+git status
+git remote -v
+git clone
+git pull
+sudo git pull
+sudo git branch --set upstream-to=origin/master
+sudo git pull
+sudo git pull origin master
+ls -al
+sudo nano __init__.py
+cd static
+ls
+cd ..
+ls
+cd templates/
+ls
+sudo nano restaurantlarge.html
+ls
+cd ..
+ls
+sudo cp __init__.py  __initold.py
+ls
+sudo cp /gitrepo/__init__.py __init__.py
+sudo cp gitrepo/__init__.py __init__.py
+ls -al
+date
+sudo cp gitrepor/templates/restaurantlarge.html templates/restaurantlarge.html
+sudo cp gitrepo/templates/restaurantlarge.html templates/restaurantlarge.html
+ls
+cd templates
+ls
+ls -al
+service apache2 restart
+ls
+ls -al
+sudo nano restaurantlarge.html
+cd ..
+sudo apache2ctl restart
+sudo service apache2 restart
+ls
+sudo copy __inittold.py backup/__initold.py
+sudo cp __inittold.py backup/__initold.py
+ls
+sudo rm __initold.py
+ls
+sudo service apache2 restart
+sudo tail -30 /var/log/apache2/error.log
+ls
+cd gitrepo
+ls
+sudo git origin master
+sudo git pull origin master
+cd ..
+ls
+sudp cp gitrepo/__init__.py __init__.py
+sudo cp gitrepo/__init__.py __init__.py
+ls
+ls -al
+date
+sudo service apache2 restart
+ls
+pwd
+ls
+sudo nano __init__.py
+sudo nano templates/restaurantlarge.html
+sudo apache2ctl restart
+sudo tail -30 /var/log/apache2/error.log
+sudo nano templates/restaurantlarge.html
+cd /var/www/Catalog/
+ls
+cd catalog/
+ls
+cd gitrepo
+sudo git pull origin master
+cd ..
+sudo cp gitrepo/templates/restaurantlarge.html templates/restaurantlarge.html
+cd /templates
+ls
+cd templates
+ls
+ls -al
+date
+cd ..
+sudo service apache2 restart
+ls
+cd gitrepo
+sudo git pull origin master
+cd ..
+sudo cp gitrepo/templates/restaurantlarge.html templates/restaurantlarge.html
+sudo service apache2 restart
+cd gitrepo
+ls
+sudo git pull origin master
+cd ..
+sudo cp gitrepo/templates/restaurantlarge.html templates/restaurantlarge.html
+sudo service apache2 restart
+ls
+cd gitrepo
+ls
+sudo git pull origin master
+cd ..
+sudo cp gitrepo/templates/menu.html templates/menu.html
+sudo service apache2 restart
+exit

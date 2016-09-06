@@ -9,7 +9,9 @@ The host server is reachable at http://ec2-52-41-58-45.us-west-2.compute.amazona
 
 * Server Security
 
-* Server Configuration/Applications
+* Server Applications
+
+* Server Configuration
 ****
 #Server Access
 
@@ -42,7 +44,7 @@ ssh -i ~/.ssh/linuxNew -p 2200 grader@52.41.58.45
 
 ****
 
-#Server Configuration/Applications
+#Server Applications
 
 Server time has been set to UTC
 
@@ -81,8 +83,27 @@ Installed Applications
 * postgesql
 
 * postgresql-contrib
+****
+# Server Configuration
 
 * [.bash_log] (https://github.com/mygethub-99/linuxservercode/blob/master/.bash_log)
+
+* Setup ~/.ssh folder on local machine with udacity-key.rsa with read-write access level
+
+* Utilized ssh protocal to login into server, setup new user called grader and a user called builder with sudo rights
+
+* Setup ssh port to use port 2200
+
+* Created new key pairs for user builder and grader using ssh_keygen, setting correct access rights for new keys (644)
+
+* Configured /sshd_config file, changing PasswordAuthentication yes to no for each new user
+
+* Configured /etc/hosts file with hostname ip address
+
+* Configured firewall and enabled firewall
+
+* Setup server on UTC time
+* dkfdkjfkjdkf
 
 ****
 

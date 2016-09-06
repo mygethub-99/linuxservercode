@@ -7,7 +7,7 @@ from sqlalchemy.orm import sessionmaker
 from feb32015db import Base, Restaurant, MenuItem, User
 from flask import session as login_session
 import flask_excel as excel
-#import pyexcel.ext.xls
+import pyexcel
 import random
 import string
 from oauth2client.client import flow_from_clientsecrets

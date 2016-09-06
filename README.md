@@ -106,6 +106,20 @@ The catalog db tables have been setup by [Link to db setup] (https://github.com/
 
 Catalog db has been populated using [Link to db setup] (https://github.com/mygethub-99/linuxservercode/blob/master/dbpopfeb3.py)
 
+****
+
+# Helps
+* [Help 1] (https://www.google.com/url?q=https://discussions.udacity.com/t/markedly-underwhelming-and-potentially-wrong-resource-list-for-p5/8587&sa=D&ust=1472834044240000&usg=AFQjCNFxCcG0xlCC1SBynzgz3qL2psyyjA)
+* [Help 2] (https://www.google.com/url?q=https://discussions.udacity.com/t/project-5-resources/28343&sa=D&ust=1472834044241000&usg=AFQjCNHB0GCrk7-zVil6oM1u-RaJPKl2Og)
+* [Help 3] (https://www.google.com/url?q=https://discussions.udacity.com/t/p5-how-i-got-through-it/15342/17&sa=D&ust=1472834044241000&usg=AFQjCNH3oN8TfWJvWz64-Oh45pPl0_FJBA)
+
+****
+
+# Issues
+
+* Flask-Excel -- There is an issue with 0.11.1x ubuntu. I opened a trouble issue with Flask-Excel [Link to issue] (https://github.com/pyexcel/Flask-Excel/issues/17)
+* Flask-Excel -- Import error related to Flask-Excel has been resolved. New problem with excel query not working. Returning none. No issue notice opened yet. Export catalog db with excel is not working at this time.
+
 
 
 

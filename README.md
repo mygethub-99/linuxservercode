@@ -87,21 +87,13 @@ Installed Applications
 # Server Configuration
 
 * [.bash_log] (https://github.com/mygethub-99/linuxservercode/blob/master/.bash_log)
-
 * Setup ~/.ssh folder on local machine with udacity-key.rsa with read-write access level
-
 * Utilized ssh protocal to login into server, setup new user called grader and a user called builder with sudo rights
-
 * Setup ssh port to use port 2200
-
 * Created new key pairs for user builder and grader using ssh_keygen, setting correct access rights for new keys (644)
-
 * Configured /sshd_config file, changing PasswordAuthentication yes to no for each new user
-
 * Configured /etc/hosts file with hostname ip address
-
 * Configured firewall and enabled firewall
-
 * Setup server on UTC time
 * Installed Configured Apache to serve Python mod_wsgi application. See Server Application section for list of applications loaded.
 * Created /var/www/Catalog & var/www/Catalog/catalog & static & templates directories to place web application files in.
@@ -109,6 +101,7 @@ Installed Applications
 * Configured the virtual host by creating and configuring catalog.conf file.
 * Created the catalog.wsgi file with needed web application code.
 * Added a git repository called gitrepo under the /catalog/gitrepo directory to push/pull the linux server web application.
+---* http://juristr.com/blog/2013/04/git-explained/
 
 ****
 

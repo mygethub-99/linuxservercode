@@ -103,7 +103,12 @@ Installed Applications
 * Configured firewall and enabled firewall
 
 * Setup server on UTC time
-* dkfdkjfkjdkf
+* Installed Configured Apache to serve Python mod_wsgi application. See Server Application section for list of applications loaded.
+* Created /var/www/Catalog & var/www/Catalog/catalog & static & templates directories to place web application files in.
+* Installed and enabled a virtual environment(virtualenv)
+* Configured the virtual host by creating and configuring catalog.conf file.
+* Created the catalog.wsgi file with needed web application code.
+* Added a git repository called gitrepo under the /catalog/gitrepo directory to push/pull the linux server web application.
 
 ****
 

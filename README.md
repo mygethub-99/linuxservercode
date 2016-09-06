@@ -3,7 +3,7 @@
 This FSND project requires the configuration of a Linux server VM that will be used to host a catalog application. The catalog web project that is hosted on this server project is a web site that highlights a few of the Dallas Texas area restaurants.
 The host server is reachable at http://ec2-52-41-58-45.us-west-2.compute.amazonaws.com
 ****
-#Main Project Milestones
+# Main Project Milestones
 
 * Server Access
 
@@ -13,7 +13,7 @@ The host server is reachable at http://ec2-52-41-58-45.us-west-2.compute.amazona
 
 * Server Configuration
 ****
-#Server Access
+# Server Access
 
 IP address: 52.41.58.46
 
@@ -31,7 +31,7 @@ Server access has been setup for user grader with sudo access
 ssh -i ~/.ssh/linuxNew -p 2200 grader@52.41.58.45
 
 ****
-#Server Security
+# Server Security
 
 * Server firewall has been activated
 
@@ -39,7 +39,7 @@ ssh -i ~/.ssh/linuxNew -p 2200 grader@52.41.58.45
 
 * ssh keys have been installed for user "grader"
 ****
-#Server Packages Installed
+# Server Packages Installed
 
 * Apache2 -- HTTP Server
 * Finger -- Provides user information
@@ -91,6 +91,7 @@ The catalog database has been setup to use a Postgresql db
 Access and ownership of the catalog database has been given to user "catalog"
 
 * catalog db password is "mydata"
+* catalog db user catalog password is catalog
 
 The catalog db tables have been setup by [Link to db setup] (https://github.com/mygethub-99/linuxservercode/blob/master/feb32015db.py)
 

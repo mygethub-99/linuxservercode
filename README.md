@@ -60,7 +60,7 @@ ssh -i ~/.ssh/linuxNew -p 2200 grader@52.41.58.45
 * sqlalchemy -- ORM and SQL tool for Python
 * flask-excel -- Based on pyexcel used to consume and produce excel files
 * postgesql -- PostgreSQL database server 
-* postgresql-contrib
+* Fail2ban -- Additional security service
 
 ****
 
@@ -89,6 +89,7 @@ ssh -i ~/.ssh/linuxNew -p 2200 grader@52.41.58.45
 * Created a Postgres user called catalog 
 * Corrected the G and FB Oauth-logins by correction the directory link to the client_secret.json files.
 * Added Amazon host server link to the FB and G developers console credentials.
+* Setup fail2ban [link to Digital Ocean help} (https://www.digitalocean.com/community/tutorials/how-to-protect-ssh-with-fail2ban-on-ubuntu-14-04)
 
 ****
 

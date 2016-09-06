@@ -39,12 +39,11 @@ ssh -i ~/.ssh/linuxNew -p 2200 grader@52.41.58.45
 
 * ssh keys have been installed for user "grader"
 ****
-#Server Applications
+#Server Packages Installed
 
-* Apache2
-
-* Python-setuptools
-
+* Apache2 -- HTTP Server
+* Finger -- Provides user information
+* Python-setuptools -- Manage python packages
 * libapache2-mod-wsgi
 
 * Git Application
@@ -103,7 +102,7 @@ ssh -i ~/.ssh/linuxNew -p 2200 grader@52.41.58.45
 ****
 #Database Setup
 
-The catalog database has been setup to use Postgresql
+The catalog database has been setup to use a Postgresql db
 
 Access and ownership of the catalog database has been given to user "catalog"
 

@@ -30,7 +30,6 @@ Server access has been setup for user grader with sudo access
 
 ssh -i ~/.ssh/linuxNew -p 2200 grader@52.41.58.45
 
---password phrase is: grader12
 ****
 #Server Security
 

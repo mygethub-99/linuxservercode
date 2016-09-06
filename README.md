@@ -108,7 +108,7 @@ Catalog db has been populated using [Link to db setup] (https://github.com/myget
 
 ****
 
-# Helps
+# Helps -- What got me through this project!
 * [Help 1] (https://www.google.com/url?q=https://discussions.udacity.com/t/markedly-underwhelming-and-potentially-wrong-resource-list-for-p5/8587&sa=D&ust=1472834044240000&usg=AFQjCNFxCcG0xlCC1SBynzgz3qL2psyyjA)
 * [Help 2] (https://www.google.com/url?q=https://discussions.udacity.com/t/project-5-resources/28343&sa=D&ust=1472834044241000&usg=AFQjCNHB0GCrk7-zVil6oM1u-RaJPKl2Og)
 * [Help 3] (https://www.google.com/url?q=https://discussions.udacity.com/t/p5-how-i-got-through-it/15342/17&sa=D&ust=1472834044241000&usg=AFQjCNH3oN8TfWJvWz64-Oh45pPl0_FJBA)

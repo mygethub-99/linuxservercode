@@ -31,9 +31,7 @@ Server access has been setup for user grader with sudo access
 ssh -i ~/.ssh/linuxNew -p 2200 grader@52.41.58.45
 
 --password phrase is: grader12
-
 ****
-
 #Server Security
 
 * Server firewall has been activated
@@ -41,9 +39,7 @@ ssh -i ~/.ssh/linuxNew -p 2200 grader@52.41.58.45
 * Port 2200 has been opened for ssh access
 
 * ssh keys have been installed for user "grader"
-
 ****
-
 #Server Applications
 
 Server time has been set to UTC
@@ -109,9 +105,7 @@ Installed Applications
 * Created a Postgres user called catalog 
 * Corrected the G and FB Oauth-logins by correction the directory link to the client_secret.json files.
 * Added Amazon host server link to the FB and G developers console credentials.
-
 ****
-
 #Database Setup
 
 The catalog database has been setup to use Postgresql

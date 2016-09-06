@@ -44,33 +44,18 @@ ssh -i ~/.ssh/linuxNew -p 2200 grader@52.41.58.45
 * Apache2 -- HTTP Server
 * Finger -- Provides user information
 * Python-setuptools -- Manage python packages
-* libapache2-mod-wsgi
-
-* Git Application
-
-* libapache2-mod-wsgi python-dev
-
-* python-pip
-
-* virtualenv
-
-* Flask
-
-* httplib2
-
-* requests
-
-* flask-seasurf
-
-* oauth2client
-
-* python-psycopg2
-
-* sqlalchemy
-
-* flask_excel
-
-* postgesql
+* libapache2-mod-wsgi -- Control pythons applications on Apaches2
+* Git Application -- Loaded to allow for git package pull and push
+* python-pip -- pip managing system
+* virtualenv -- Virtual python environment builder
+* Flask -- Microframework for Python based on Werkzeug, and Jinja 2
+* httplib2 -- A comprehensive HTTP client library
+* requests -- Requests is the only Non-GMO HTTP library for Python
+* oauth2client -- Allow for use of 3rd party authentication
+* python-psycopg2 -- PostgreSQL adaptor for Python
+* sqlalchemy -- ORM and SQL tool for Python
+* flask-excel -- Based on pyexcel used to consume and produce excel files
+* postgesql -- PostgreSQL database server 
 
 * postgresql-contrib
 ****

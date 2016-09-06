@@ -82,6 +82,8 @@ Installed Applications
 
 * postgresql-contrib
 
+* [.bash_log]https://github.com/mygethub-99/linuxservercode/blob/master/.bash_log
+
 ****
 
 #Database Setup

@@ -98,10 +98,11 @@ Installed Applications
 * Installed Configured Apache to serve Python mod_wsgi application. See Server Application section for list of applications loaded.
 * Created /var/www/Catalog & var/www/Catalog/catalog & static & templates directories to place web application files in.
 * Installed and enabled a virtual environment(virtualenv)
+  * [How to deploy Flask and virtual environment] (https://www.digitalocean.com/community/tutorials/how-to-deploy-a-flask-application-on-an-ubuntu-vps)
 * Configured the virtual host by creating and configuring catalog.conf file.
 * Created the catalog.wsgi file with needed web application code.
 * Added a git repository called gitrepo under the /catalog/gitrepo directory to push/pull the linux server web application.
-  * http://juristr.com/blog/2013/04/git-explained/
+  * [git-explained] (http://juristr.com/blog/2013/04/git-explained/)
 
 ****
 

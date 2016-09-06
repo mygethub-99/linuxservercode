@@ -56,7 +56,6 @@ ssh -i ~/.ssh/linuxNew -p 2200 grader@52.41.58.45
 * sqlalchemy -- ORM and SQL tool for Python
 * flask-excel -- Based on pyexcel used to consume and produce excel files
 * postgesql -- PostgreSQL database server 
-
 * postgresql-contrib
 ****
 # Server Configuration

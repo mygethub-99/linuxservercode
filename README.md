@@ -36,9 +36,9 @@ ssh -i ~/.ssh/getgrade -p 2200 grader@52.41.58.45
 # Server Security
 
 * Server firewall has been activated
-
-* Port 2200 has been opened for ssh access
-
+* SSH Incoming Port:2200 is open
+* TCP Incoming port:80 is open
+* UDP Incoming port 123 is open
 * ssh keys have been installed for user "grader"
 
 ****
